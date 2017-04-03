@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMenuItemBackground">#222222</color>
+    <color name="colorMenuItemText">#aaaaaa</color>
+    <color name="colorMenuItemLightLine">#363636</color>
+    <color name="colorMenuItemDarkLine">#090909</color>
+    <color name="colorToolbarWebView">#df6b10</color>
+    <color name="colorNavigationWebView">#df6b10</color>
+    <color name="colorStatusBarMainActivity">#df6b10</color>
+    <color name="colorNonWebViewFragmentBackground">#ffdd00</color>
+    <color name="colorNonWebViewFragmentToolbar">#df6b10</color>
+    <color name="colorWeekDaySpecialsImageFragmentToolbar">#df6b10</color>
+    <color name="colorHoursContactMenuBottomTab">#bc611a</color>
+    <color name="colorHoursContactMenuBottomTabInfo">#e0e0e0</color>
+    <color name="colorHoursContactMenuBottomTabHours">#ffff81</color>
+</resources>

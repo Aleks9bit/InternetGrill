@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">InternetGrill</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menuHome">Home</string>
+    <string name="menuOrderOnline">Order Online</string>
+    <string name="menuViewableOnlyMenu">Viewable Only Menu</string>
+    <string name="menuMyAccount">My Account</string>
+    <string name="menuWeekdaySpecials">Weekday Specials</string>
+    <string name="menuFamilySpecials">Family Specials</string>
+    <string name="menuCatering">Catering</string>
+    <string name="menuFacebook">Facebook</string>
+    <string name="menuHoursContact">Hours/Contact</string>
+    <string name="menuOther">OTHER</string>
+    <string name="menuNotifications">Notifications</string>
+    <string name="menuHelp">Help</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuMain">Main</string>
+    <string name="myAccountUrl">http://internetgrill.com/login.php</string>
+    <string name="familySpecialsUrl">http://internetgrill.com/product.php?categoryid=2</string>
+    <string name="orderOnlineUrl">http://internetgrill.com/index.php</string>
+    <string name="cateringUrl">http://internetgrill.com/product.php?categoryid=13</string>
+    <string name="facebookUrl">https://m.facebook.com/494-Chicken-100515213345861/</string>
+    <string name="homeFragmentToolbarTitle">Internet Grill</string>
+
+    <string name="homeFragmentText1">internetgrill.com</string>
+    <string name="homeFragmentText2">Staten Island\'s First Online Restaurant</string>
+    <string name="homeFragmentText3">Swipe up and place your order online now!</string>
+    <string name="mobileNumber">tel:7184942442</string>
+    <string name="hoursContactFragmentMenuBottomAddress">Address</string>
+    <string name="hoursContactFragmentMenuBottomInfo">Info</string>
+    <string name="hoursContactFragmentMenuBottomContact">Contact</string>
+    <string name="hoursContactFragmentMenuBottomHours">Hours</string>
+    <string name="stateAddress">Staten Island</string>
+    <string name="address">3785 Victory Boulevard, NY 10314</string>
+    <string name="email">494chicken@verizon.net</string>
+    <string name="phoneNumber">718-494-2442</string>
+    <string name="webSite">http://www.internetgrill.com/</string>
+
+</resources>

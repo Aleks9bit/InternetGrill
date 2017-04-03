@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMenuItemBackground">
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:text="@string/menuMain"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuMain"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/home_icon" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:layout_toRightOf="@id/iconHome"
+            android:text="@string/menuHome"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuOrderOnline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuHome"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/order_online_icon" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:layout_toRightOf="@id/iconHome"
+            android:text="@string/menuOrderOnline"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuViewableMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuOrderOnline"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/viewable_menu_icon" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:layout_toRightOf="@id/iconHome"
+            android:text="@string/menuViewableOnlyMenu"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuMyAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuViewableMenu"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/order_online_icon" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:layout_toRightOf="@id/iconHome"
+            android:text="@string/menuMyAccount"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuWeekdaySpecials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuMyAccount"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/weekday_specials_icon" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:layout_toRightOf="@id/iconHome"
+            android:text="@string/menuWeekdaySpecials"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuFamilySpecials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuWeekdaySpecials"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/order_online_icon" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:layout_toRightOf="@id/iconHome"
+            android:text="@string/menuFamilySpecials"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuCatering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuFamilySpecials"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/order_online_icon" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:layout_toRightOf="@id/iconHome"
+            android:text="@string/menuCatering"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuCatering"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/order_online_icon" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:layout_toRightOf="@id/iconHome"
+            android:text="@string/menuFacebook"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+    <com.grill.internet.internetgrill.widgets.CustomMenuItem
+        android:id="@+id/menuHoursContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuFacebook"
+        android:background="@color/colorMenuItemBackground">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="top"
+            android:background="@color/colorMenuItemLightLine" />
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/hours_contact_icon" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/menuItemMargin"
+            android:layout_toRightOf="@id/iconHome"
+            android:text="@string/menuHoursContact"
+            android:textColor="@color/colorMenuItemText"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHome"
+            android:background="@color/colorMenuItemDarkLine" />
+
+    </com.grill.internet.internetgrill.widgets.CustomMenuItem>
+
+</RelativeLayout>

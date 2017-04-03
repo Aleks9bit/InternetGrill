@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Main">
+        <menu>
+            <item
+                android:id="@+id/navHome"
+                android:title="Home"
+                app:actionLayout="@layout/menu_home"/>
+
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/navSettings"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
